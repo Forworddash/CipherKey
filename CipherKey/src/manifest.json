@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "MFA Authentication Extension",
+    "version": "1.0",
+    "permissions": ["storage", "identity"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": ["http://*/*", "https://*/*"]
+  }
+  
